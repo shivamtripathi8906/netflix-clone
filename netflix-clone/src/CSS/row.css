@@ -39,3 +39,8 @@
 .row_posterLarge:hover {
   transform: scale(1.08);
 }
+.youtube {
+  width: 100%;
+  left: 0;
+  position: absolute;
+}

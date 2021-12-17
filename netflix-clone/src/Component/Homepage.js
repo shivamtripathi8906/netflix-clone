@@ -2,11 +2,13 @@ import React from 'react';
 import AllRows from './AllRows';
 import request from '../Axios/requests';
 import Banner from './Banner';
+import Navbar from './Navbar';
 
 function Homepage() {
     // console.log(request)
     return (
         <div className='HomepageMainContainer'>
+            <Navbar/>
             <Banner/>
             <AllRows title="NETFLIX ORIGNALS" fetchURL={request.fetchNetflixOrignals} />
             <AllRows title="Trending Now" fetchURL={request.fetchTrending} isLargeRow={true}/>

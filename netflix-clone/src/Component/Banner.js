@@ -9,15 +9,18 @@ function Banner() {
     
     useEffect(()=>{
         let mounted= true;
+        const controller = new AbortController();
         if(mounted){
              async function fetchData(){
-                const requests= await instance.get(request.fetchNetflixOrignals);
-                setmovie(requests.data.results[Math.floor(Math.random()*( requests.data.results.length-1))])
+                  await instance.get(request.fetchNetflixOrignals,{signal: controller.signal})
+                 .then((res)=>{setmovie(res.data.results[Math.floor(Math.random()*( res.data.results.length-1))])})
+                
              }
              fetchData()
         }
         return()=>{
             mounted=false;
+            controller.abort()
         }
     },[])
 
