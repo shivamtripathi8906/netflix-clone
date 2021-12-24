@@ -1,0 +1,433 @@
+.loginpage_main_container {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+}
+.loginNav {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(10, 10, 10, 0.61),
+    #111
+  );
+}
+.loginNav > img {
+  width: 9rem;
+  height: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.sign-in {
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #e50914;
+  padding: 0rem 1rem 0rem 1rem;
+  height: 2.1rem;
+  font-size: 1.03rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.sign-in:hover {
+  transform: scale(1.04);
+}
+.banner-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.emaillogin {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+}
+.emaillogin > h1 {
+  font-size: 4.5rem;
+  padding-top: 6rem;
+}
+.emaillogin > h4 {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+}
+.emaillogin > p {
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.email-input {
+  height: 70px;
+  outline: none;
+
+  border: none;
+}
+.inputcontainer > input {
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+  height: 60px !important;
+  width: 450px;
+}
+.get-started {
+  width: 200px;
+  height: 60px;
+  background-color: #e50914;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.space-bottom-container {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    -180deg,
+    transparent,
+    rgba(12, 12, 12, 0.61),
+    rgb(15, 15, 15)
+  );
+  height: 10.5rem;
+}
+.grey-container {
+  background-color: rgb(44, 44, 44);
+  height: 0.5rem;
+}
+.watch-everywhwere-container {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+}
+.watch-everywhere-box1 {
+  width: 50%;
+  padding: 10rem 0 10rem 5rem;
+}
+.watch-everywhere-box1 > h1 {
+  font-size: 3.125rem;
+}
+.watch-everywhere-box1 > p {
+  font-size: 1.625rem;
+  margin-top: 1rem;
+}
+.watch-everywhere-box2 {
+  width: 50%;
+  padding: 3rem 3rem 3rem 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.tv-container {
+  position: relative;
+  z-index: 0;
+  width: 80%;
+}
+.tv-container > img {
+  width: 100%;
+  height: auto;
+}
+.video-sacred-games {
+  position: absolute;
+  z-index: -1;
+  top: 8%;
+  left: 18%;
+  max-width: 63%;
+  max-height: 47%;
+}
+.childrenmain-container {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.children-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.childern-container-box1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.childphoto-container {
+  width: 80%;
+  margin: 2rem 0 2rem 0rem;
+}
+.childphoto-container > img {
+  width: 100%;
+  height: auto;
+}
+.childrencontainerbox2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem 0 0;
+}
+.childrencontainerbox2 > h1 {
+  font-size: 3.125rem;
+}
+.childrencontainerbox2 > p {
+  font-size: 1.625rem;
+  margin-top: 1rem;
+}
+.question-container-main-parent {
+  width: 100%;
+}
+.question-containers-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.question-containers-main > h1 {
+  font-size: 3.125rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.questionbutton {
+  cursor: pointer;
+  width: 60%;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #303030;
+  outline: none;
+  border: none;
+  text-align: left;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s;
+}
+.button-content {
+  width: 60%;
+  padding: 0.8rem 2.2rem 0.8rem 1.2rem;
+  background-color: #303030;
+  color: white;
+  text-align: left;
+  font-size: 1.4rem;
+  margin-top: 1px;
+}
+.button-content > p {
+  margin-top: 0.5rem;
+}
+
+/* Media queries for mid-screen sized devices */
+
+@media (max-width: 850px) {
+  .loginNav > img {
+    width: 7.5rem;
+    height: 2.5rem;
+  }
+  .inputcontainer {
+    flex-direction: column;
+  }
+  .get-started {
+    margin-top: 1rem;
+    height: 40px;
+    border-radius: 3px;
+    width: 180px;
+  }
+  .inputcontainer > input {
+    border-radius: 2.5px;
+    height: 50px !important;
+  }
+  .emaillogin > h1 {
+    font-size: 3.5rem;
+  }
+  .watch-everywhwere-container {
+    flex-direction: column;
+  }
+  .watch-everywhere-box1 {
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .watch-everywhere-box2 {
+    width: 100%;
+  }
+  .watch-everywhere-box1 > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .watch-everywhere-box1 > p {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .video-sacred-games {
+    top: 8% !important;
+  }
+  .children-container {
+    flex-direction: column-reverse;
+  }
+  .childern-container-box1 {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .childrencontainerbox2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  .childrencontainerbox2 > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .childrencontainerbox2 > p {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .question-containers-main > h1 {
+    font-size: 2.5rem;
+  }
+  .questionbutton {
+    width: 80%;
+    font-size: 1.3rem;
+  }
+  .button-content {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+.login-page-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.login-page-footer > p {
+  margin-top: 2rem;
+  color: grey;
+  width: 80%;
+  align-items: left;
+  margin-bottom: 2rem;
+}
+.multiple-link-container-main {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.multiple-link-container > p {
+  margin-top: 0.6rem;
+  cursor: pointer;
+  color: grey;
+}
+.multiple-link-container {
+  min-width: 8rem;
+  margin-left: 0.5rem;
+}
+
+/* Media queries for small-screen sized devices */
+
+@media (max-width: 580px) {
+  .loginNav > img {
+    width: 6rem;
+    height: 2rem;
+  }
+  .emaillogin > h1 {
+    font-size: 1.75rem;
+  }
+  .emaillogin > h4 {
+    font-size: 1.125rem;
+  }
+  .emaillogin > p {
+    font-size: 1.125rem;
+  }
+  .inputcontainer {
+    flex-wrap: wrap;
+  }
+  .inputcontainer > input {
+    width: 80%;
+    height: 45px !important;
+    font-size: 0.9rem;
+  }
+  .get-started {
+    font-size: 1rem;
+  }
+  .space-bottom-container {
+    height: 4.5rem;
+  }
+  .sign-in {
+    height: 1.5rem;
+    padding: 0 0.55rem 0 0.55rem;
+    font-size: 0.8rem;
+  }
+  .video-sacred-games {
+    top: 8% !important;
+  }
+  .watch-everywhere-box1 > h1 {
+    font-size: 1.635rem;
+  }
+  .watch-everywhere-box1 > p {
+    font-size: 1.125rem;
+  }
+  .childrencontainerbox2 > h1 {
+    padding-top: 3rem;
+    font-size: 1.635rem;
+  }
+  .childrencontainerbox2 > p {
+    font-size: 1.125rem;
+  }
+  .question-containers-main > h1 {
+    font-size: 1.625rem;
+  }
+  .questionbutton {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .button-content {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .multiple-link-container-main {
+    width: 90%;
+  }
+  .login-page-footer > p {
+    width: 90%;
+  }
+}
+
+/* Media queries for random sized to make screen look good */
+
+@media (max-width: 1255px) {
+  .video-sacred-games {
+    top: 3%;
+  }
+}
+@media (max-width: 1100px) {
+  .video-sacred-games {
+    top: -2%;
+  }
+}
+@media (max-width: 1000px) {
+  .video-sacred-games {
+    top: -3%;
+  }
+  .tv-container {
+    width: 100%;
+  }
+  .watch-everywhere-box1 {
+    padding-top: 7rem;
+  }
+}

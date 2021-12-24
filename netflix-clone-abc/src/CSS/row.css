@@ -1,7 +1,7 @@
 .row_main_container {
   width: 100%;
-  /* border: 1px solid #000000; */
-  padding-left: 1rem;
+  /* border: 1px solid pink; */
+  padding-left: 1.3rem;
 }
 .row_main_container > h3 {
   font-weight: 300;
@@ -13,6 +13,8 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 1rem;
+  padding-left: 0rem;
+  scroll-behavior: smooth;
 }
 .row_poster::-webkit-scrollbar {
   display: none;
@@ -43,4 +45,38 @@
   width: 100%;
   left: 0;
   position: absolute;
+}
+.buttonLeft {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.buttonRight {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+.navigationbuttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+  padding-bottom: 0.2rem;
+}
+@media (max-width: 700px) {
+  .navigationbuttons {
+    display: none;
+  }
 }
